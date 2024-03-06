@@ -61,7 +61,7 @@ jobs:
          user: ${{ secrets.DC_USER }}
          pass: ${{ secrets.DC_KEY }}
          scp: |
-          ./*.war => /tmp/
+          ./*.war => /tmp/Anuj.war
          last_ssh: |
-            sudo cp /tmp/*.war /var/lib/tomcat9/webapps/Sreejish.war
+            sudo cp /tmp/Anuj.war /var/lib/tomcat9/webapps/Sreejish.war
             ls -la
